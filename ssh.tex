@@ -1,0 +1,56 @@
+\documentclass{lug}
+
+\title{SSH}
+\author{Sumner Evans}
+\institute{Mines Linux Users Group}
+
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\beamer@sectionintoc}{\vskip1.5em}{\vskip0.5em}{}{}
+\makeatother
+
+\begin{document}
+
+\section{Background}
+
+\begin{frame}{What is SSH?}
+    \begin{itemize}[<+->]
+        \item SSH stands for \textbf{S}ecure \textbf{SH}ell
+        \item SSH is a cryptographic network protocol for operating network
+            services securely over an unsecured network.
+        \item SSH uses public-key cryptography for authentication
+        \item SSH allows you to access your computer remotely and securely
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{How do I get SSH?}
+    \begin{itemize}
+        \item Linux: \texttt{ssh} package in your package manager (it's probably
+            already installed)
+        \item macOS: SSH is already installed, but it may be an old version. Use
+            Homebrew to get the latest version.
+        \item Windows: You can use PuTTY (\url{http://www.putty.org/})
+    \end{itemize}
+\end{frame}
+
+\section{Learning Resources}
+
+\begin{frame}{Learning Resources}
+    \begin{itemize}[<+->]
+        \item test
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{References}
+    \begin{itemize}
+        \item Wikipedia: \url{https://en.wikipedia.org/wiki/Secure_Shell}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[standout]
+    \Huge
+    Questions?
+\end{frame}
+
+\end{document}
